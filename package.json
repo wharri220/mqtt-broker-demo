@@ -1,0 +1,8 @@
+{
+  "name": "mqtt_broker",
+  "version": "0.0.1",
+  "dependencies": {
+    "mosca": "*",
+    "request": "*"
+  }
+}

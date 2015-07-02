@@ -1,0 +1,66 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'aws-sdk' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 warn package.json mqtt_broker@0.0.1 No repository field.
+5 verbose readDependencies using package.json deps
+6 verbose cache add [ 'aws-sdk', null ]
+7 verbose cache add name=undefined spec="aws-sdk" args=["aws-sdk",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'aws-sdk',
+8 verbose parsed url   path: 'aws-sdk',
+8 verbose parsed url   href: 'aws-sdk' }
+9 silly lockFile 9510eae3-aws-sdk aws-sdk
+10 verbose lock aws-sdk C:\Users\westley\.strong-registry\sinopia.cache\9510eae3-aws-sdk.lock
+11 silly lockFile 9510eae3-aws-sdk aws-sdk
+12 silly lockFile 9510eae3-aws-sdk aws-sdk
+13 verbose addNamed [ 'aws-sdk', '' ]
+14 verbose addNamed [ null, '*' ]
+15 silly lockFile c43bae9a-aws-sdk aws-sdk@
+16 verbose lock aws-sdk@ C:\Users\westley\.strong-registry\sinopia.cache\c43bae9a-aws-sdk.lock
+17 silly addNameRange { name: 'aws-sdk', range: '*', hasData: false }
+18 verbose request where is /aws-sdk
+19 verbose request registry http://173.230.129.36:4873/
+20 verbose request id 2088fbda268c5a9b
+21 verbose url raw /aws-sdk
+22 verbose url resolving [ 'http://173.230.129.36:4873/', './aws-sdk' ]
+23 verbose url resolved http://173.230.129.36:4873/aws-sdk
+24 verbose request where is http://173.230.129.36:4873/aws-sdk
+25 info trying registry request attempt 1 at 16:08:05
+26 http GET http://173.230.129.36:4873/aws-sdk
+27 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+28 info trying registry request attempt 2 at 16:08:36
+29 http GET http://173.230.129.36:4873/aws-sdk
+30 info retry will retry, error on last attempt: Error: connect ETIMEDOUT
+31 info trying registry request attempt 3 at 16:09:57
+32 http GET http://173.230.129.36:4873/aws-sdk
+33 silly lockFile c43bae9a-aws-sdk aws-sdk@
+34 silly lockFile c43bae9a-aws-sdk aws-sdk@
+35 error network connect ETIMEDOUT
+35 error network This is most likely not a problem with npm itself
+35 error network and is related to network connectivity.
+35 error network In most cases you are behind a proxy or have bad network settings.
+35 error network
+35 error network If you are behind a proxy, please make sure that the
+35 error network 'proxy' config is set properly.  See: 'npm help config'
+36 error System Windows_NT 6.1.7601
+37 error command "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "--save" "aws-sdk"
+38 error cwd C:\Users\Westley\Repos\mqtt_broker
+39 error node -v v0.10.33
+40 error npm -v 1.4.28
+41 error syscall connect
+42 error code ETIMEDOUT
+43 error errno ETIMEDOUT
+44 verbose exit [ 1, true ]
