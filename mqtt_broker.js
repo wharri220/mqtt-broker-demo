@@ -54,7 +54,7 @@ server.once('ready', function(){
         username = username || "";
         password = password || "";
 
-        var isAuthorized = (password.toString() === configuration["broker_credential"]);
+        var isAuthorized = (password.toString() === "secret");
         console.log("Authenticate [" + client.id + "]-(" + username +"/"+password+ ") => " + isAuthorized);
         return callback(null, isAuthorized);
     };
